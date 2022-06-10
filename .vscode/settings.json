@@ -1,5 +1,23 @@
 {
   "editor.formatOnSave": true,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.exclude": {
+    // "**/node_modules/": true,
+    // "build/": true,
+    // ".github/": true,
+    // "dist/": true,
+    // "tsconfig.*": false,
+    // ".editorconfig": true,
+    // ".eslint.js": true,
+    // ".eslintrc.json": true,
+    // ".gitignore": true,
+    // "LICENSE": true,
+    // "package.json": true,
+    // ".prettierignore": true,
+    // "README.md": true,
+    // "tsconfig.json": true,
+    // "tsconfig.module.json": true,
+    // "yarn.lock": true
+  }
 }
